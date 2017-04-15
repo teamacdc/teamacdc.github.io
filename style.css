@@ -297,6 +297,12 @@ a:link {
     list-style-type: none;
 }
 
+@media all and (max-width:750px) {
+    .none {
+        list-style-type: disc;
+    }
+}
+
 /* Robot Div */
 .robot {
     background: var(--second-color);
